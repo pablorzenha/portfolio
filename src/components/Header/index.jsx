@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
-import me from "../../assets/me.jpeg";
+import emoji from "../../assets/bitmojiHeader.png";
 import HeaderSocials from "./HeaderSocials";
 import "./header.css";
 
@@ -14,11 +14,8 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src={me} alt="Pablo Araujo" />
+          <img src={emoji} alt="Pablo Araujo" />
         </div>
-        <a href="#contact" className="scroll_dowm">
-          Role para baixo
-        </a>
       </div>
     </header>
   );

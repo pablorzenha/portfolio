@@ -41,12 +41,21 @@ function About() {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad harum
-            incidunt neque voluptatibus expedita provident, voluptates
-            consectetur tempora libero at magnam sequi nemo ratione alias
-            necessitatibus quo placeat consequuntur dolorum!
+            Sempre dominando novas tecnologias para aplicar nos problemas do dia
+            a dia.
           </p>
-          <a href="#contact" className="btn btn-primary">
+          <p>
+            Sempre fui apaixonado por tecnologia e jogos. E, por isso, tinha
+            curiosidade de saber como era o backstage desse universo. Aos 13
+            anos de idade tive meu primeiro contato com a informática em um
+            curso de pacote office e ambiente windows, aquilo foi apenas o
+            início. Em seguida, veio curso web designer aos 14 anos, manutenção
+            de microcomputadores aos 16 anos, curso de excel avançado aos 22
+            anos e um detalhe, e não menos importante, aos 19 anos entrei na
+            faculdade de TI. Mudei para curso para fazer engenharia mecânica, só
+            que lá tive certeza que tinha que voltar para a tecnologia.
+          </p>
+          <a href="#contact" className="btn btn-primary letsTalk">
             Vamos conversar
           </a>
         </div>

@@ -23,8 +23,8 @@ function Contact() {
 
   return (
     <section id="contact">
-      <h5>Get in Touch</h5>
-      <h2>Contact me</h2>
+      <h5>Vamos nos conectar ?</h5>
+      <h2>Contato</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">

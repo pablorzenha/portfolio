@@ -10,7 +10,7 @@ function Experience() {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Desenvolvimento Frontend</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
@@ -43,7 +43,7 @@ function Experience() {
           </div>
         </div>
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Desenvolvimento Backend</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />

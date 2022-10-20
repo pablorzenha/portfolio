@@ -1,6 +1,11 @@
 import React from "react";
-import me from "../../assets/me.jpeg";
 import hamburgueria from "../../assets/hamburgueria.png";
+import tibia from "../../assets/tibia.png";
+import desenvolvimento from "../../assets/desenvolvimento.jpg";
+import kenziehub from "../../assets/kenziehub.png";
+import simpleCart from "../../assets/carrinhosimples.png";
+import rzenhaEmpresas from "../../assets/rzenhaempresas.png";
+
 import "./style.css";
 function Portfolio() {
   return (
@@ -12,7 +17,7 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={hamburgueria} alt="hamburgueria" />
           </div>
-          <h3>React + Axios + Toast </h3>
+          <h3>Hamburgueria (React + Axios + Toast) </h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/pablorzenha/hamburgueria"
@@ -32,15 +37,19 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={me} alt="" />
+            <img src={tibia} alt="tibia" />
           </div>
-          <h3>Este é um porfolio ... </h3>
+          <h3>TibiaApi (React + Axios + router-dom + styled-components) </h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="__blank">
+            <a
+              href="https://github.com/pablorzenha/api-tibia"
+              className="btn"
+              target="__blank"
+            >
               Github
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://api-tibia.vercel.app/"
               className="btn btn-primary"
               target="__blank"
             >
@@ -50,15 +59,22 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={me} alt="" />
+            <img src={kenziehub} alt="" />
           </div>
-          <h3>Este é um porfolio ... </h3>
+          <h3>
+            KenzieHub (React + ContextApi + Axios + styled-components +
+            router-dom){" "}
+          </h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="__blank">
+            <a
+              href="https://github.com/pablorzenha/kenziehub"
+              className="btn"
+              target="__blank"
+            >
               Github
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://s3-14-eight.vercel.app/"
               className="btn btn-primary"
               target="__blank"
             >
@@ -68,15 +84,19 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={me} alt="" />
+            <img src={simpleCart} alt="" />
           </div>
-          <h3>Este é um porfolio ... </h3>
+          <h3>Exemplo cart simples (TypeScript + ContextApi) </h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="__blank">
+            <a
+              href="https://github.com/pablorzenha/simple-cart-typescript"
+              className="btn"
+              target="__blank"
+            >
               Github
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://react-atividade-s5-context-api-com-typescript-pablorzenha.vercel.app/"
               className="btn btn-primary"
               target="__blank"
             >
@@ -86,15 +106,19 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={me} alt="" />
+            <img src={rzenhaEmpresas} alt="" />
           </div>
-          <h3>Este é um porfolio ... </h3>
+          <h3>RzenhaHelp (JS Vanilla + CSS + HTML + AXIOS)</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="__blank">
+            <a
+              href="https://github.com/pablorzenha/projeto-empresas-js-vanilla"
+              className="btn"
+              target="__blank"
+            >
               Github
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://pablorzenha.github.io/projeto-empresas-js-vanilla/"
               className="btn btn-primary"
               target="__blank"
             >
@@ -104,9 +128,9 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={me} alt="" />
+            <img src={desenvolvimento} alt="" />
           </div>
-          <h3>Este é um porfolio ... </h3>
+          <h3>Em desenvolvimento... </h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className="btn" target="__blank">
               Github

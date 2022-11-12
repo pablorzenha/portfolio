@@ -20,7 +20,7 @@ function Portfolio() {
           <h3>Recruiter's place (Projeto TypeScript com Chat funcional)</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/time-6/recruiters-place/settings"
+              href="https://github.com/time-6/recruiters-place"
               className="btn"
               target="__blank"
             >

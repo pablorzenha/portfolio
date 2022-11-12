@@ -42,7 +42,7 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Conhecimento em lógica de programaçao</p>
+              <p>Conhecimento em lógica de programação</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />

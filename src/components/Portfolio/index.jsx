@@ -1,10 +1,10 @@
 import React from "react";
 import hamburgueria from "../../assets/hamburgueria.png";
 import tibia from "../../assets/tibia.png";
-import desenvolvimento from "../../assets/desenvolvimento.jpg";
 import kenziehub from "../../assets/kenziehub.png";
 import simpleCart from "../../assets/carrinhosimples.png";
 import rzenhaEmpresas from "../../assets/rzenhaempresas.png";
+import recruitersplace from "../../assets/recruitersplace.png";
 
 import "./style.css";
 function Portfolio() {
@@ -13,6 +13,53 @@ function Portfolio() {
       <h5>Meus recentes trabalhos</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={recruitersplace} alt="" />
+          </div>
+          <h3>Recruiter's place (Projeto TypeScript com Chat funcional)</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/time-6/recruiters-place/settings"
+              className="btn"
+              target="__blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://recruiters-place.vercel.app/"
+              className="btn btn-primary"
+              target="__blank"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={kenziehub} alt="" />
+          </div>
+          <h3>
+            KenzieHub (React + ContextApi + Axios + styled-components +
+            router-dom){" "}
+          </h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/pablorzenha/kenziehub"
+              className="btn"
+              target="__blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://s3-14-eight.vercel.app/"
+              className="btn btn-primary"
+              target="__blank"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={hamburgueria} alt="hamburgueria" />
@@ -59,31 +106,6 @@ function Portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={kenziehub} alt="" />
-          </div>
-          <h3>
-            KenzieHub (React + ContextApi + Axios + styled-components +
-            router-dom){" "}
-          </h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/pablorzenha/kenziehub"
-              className="btn"
-              target="__blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://s3-14-eight.vercel.app/"
-              className="btn btn-primary"
-              target="__blank"
-            >
-              Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
             <img src={simpleCart} alt="" />
           </div>
           <h3>Exemplo cart simples (TypeScript + ContextApi) </h3>
@@ -119,28 +141,6 @@ function Portfolio() {
             </a>
             <a
               href="https://pablorzenha.github.io/projeto-empresas-js-vanilla/"
-              className="btn btn-primary"
-              target="__blank"
-            >
-              Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={desenvolvimento} alt="" />
-          </div>
-          <h3>Recruiter's place </h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/time-6/recruiters-place/settings"
-              className="btn"
-              target="__blank"
-            >
-              Github
-            </a>
-            <a
-              href="https://recruiters-place.vercel.app/"
               className="btn btn-primary"
               target="__blank"
             >

@@ -37,14 +37,14 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">cursando</small>
+                <small className="text-light">experiência</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>TypeScript</h4>
-                <small className="text-light">cursando</small>
+                <small className="text-light">experiência</small>
               </div>
             </article>
           </div>

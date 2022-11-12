@@ -31,13 +31,13 @@ function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a href="https://www.facebook.com/pablo.araujo.33">
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://www.instagram.com/pablo_araujo_/">
           <FiInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com/Pabloaraujoeng">
           <IoLogoTwitter />
         </a>
       </div>

@@ -130,13 +130,17 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={desenvolvimento} alt="" />
           </div>
-          <h3>Em desenvolvimento... </h3>
+          <h3>Recruiter's place </h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn" target="__blank">
+            <a
+              href="https://github.com/time-6/recruiters-place/settings"
+              className="btn"
+              target="__blank"
+            >
               Github
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://recruiters-place.vercel.app/"
               className="btn btn-primary"
               target="__blank"
             >

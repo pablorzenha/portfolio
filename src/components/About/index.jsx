@@ -28,12 +28,6 @@ function About() {
               <small>5+ anos em gerência de vendas.</small>
             </article>
 
-            {/* <article className="about__card">
-              <FiUser className="about__icon" />
-              <h5>Clients</h5>
-              <small></small>
-            </article> */}
-
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projetos</h5>
@@ -45,15 +39,27 @@ function About() {
             a dia.
           </p>
           <p>
-            Sempre fui apaixonado por tecnologia e jogos. E, por isso, tinha
-            curiosidade de saber como era o backstage desse universo. Aos 13
-            anos de idade tive meu primeiro contato com a informática em um
-            curso de pacote office e ambiente windows, aquilo foi apenas o
+            Sempre fui apaixonado por tecnologia e jogos. Por conta disso,
+            sempre tive curiosidade de saber como era o backstage desse
+            universo. Aos 13 anos tive meu primeiro contato com a informática em
+            um curso de pacote office e ambiente windows, aquilo foi apenas o
             início. Em seguida, veio curso web designer aos 14 anos, manutenção
             de microcomputadores aos 16 anos, curso de excel avançado aos 22
             anos e um detalhe, e não menos importante, aos 19 anos entrei na
-            faculdade de TI. Mudei para curso para fazer engenharia mecânica, só
-            que lá tive certeza que tinha que voltar para a tecnologia.
+            faculdade de TI.
+          </p>
+          <p>
+            Por conta de um sonho de família tranquei a faculdade de TI e migrei
+            para o curso de engenharia mecânica, porém lá, de volta com o
+            contato com a programção através de c++, reacendeu minha paixão de
+            infância pela programação e tive certeza que tinha que voltar para a
+            tecnologia. Atualmente, estudo desenvolvimento full stack na kenzie
+            academy e tenho fortes conhecimentos em desenvolvimento front-end.
+          </p>
+          <p>
+            Principais tecnologias que tenho conhecimento: HTML | CSS |
+            Javascript| React | TypeScript| Styled-components | Scrum | Axios |
+            Toastify | Node | PHP | C++ | GIT | GitHub Inglês avançado.
           </p>
           <a href="#contact" className="btn btn-primary letsTalk">
             Vamos conversar

@@ -1,6 +1,6 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaYoutube } from "react-icons/fa";
 
 function HeaderSocials() {
   return (
@@ -13,6 +13,9 @@ function HeaderSocials() {
       </a>
       <a href="https://github.com/pablorzenha" target="__blank">
         <FaGithub />
+      </a>
+      <a href="https://www.youtube.com/@pabloaraujo1893" target="__blank">
+        <FaYoutube />
       </a>
     </div>
   );

@@ -5,6 +5,7 @@ import kenziehub from "../../assets/kenziehub.png";
 import simpleCart from "../../assets/carrinhosimples.png";
 import rzenhaEmpresas from "../../assets/rzenhaempresas.png";
 import recruitersplace from "../../assets/recruitersplace.png";
+import doit from "../../assets/doit.png";
 
 import "./style.css";
 function Portfolio() {
@@ -13,6 +14,28 @@ function Portfolio() {
       <h5>Meus recentes trabalhos</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={doit} alt="" />
+          </div>
+          <h3>Do it (TypeScript + Chackra UI)</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/pablorzenha/do-it"
+              className="btn"
+              target="__blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://doit-one-tau.vercel.app/"
+              className="btn btn-primary"
+              target="__blank"
+            >
+              Demo
+            </a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={recruitersplace} alt="" />

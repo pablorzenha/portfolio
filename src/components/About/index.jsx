@@ -34,10 +34,7 @@ function About() {
               <small>10+ projetos completos</small>
             </article>
           </div>
-          <p>
-            Sempre dominando novas tecnologias para aplicar nos problemas do dia
-            a dia.
-          </p>
+          <p>Um pouquinho da minha história ...</p>
           <p>
             Sempre fui apaixonado por tecnologia e jogos. Por conta disso,
             sempre tive curiosidade de saber como era o backstage desse
@@ -57,9 +54,14 @@ function About() {
             academy e tenho fortes conhecimentos em desenvolvimento front-end.
           </p>
           <p>
-            Principais tecnologias que tenho conhecimento: HTML | CSS |
-            Javascript| React | TypeScript| Styled-components | Scrum | Axios |
-            Toastify | Node | PHP | C++ | GIT | GitHub Inglês avançado.
+            Com foco em ajudar a comunidade dev e as pessoas que estão iniciando
+            sua carreira. Criei um canal no youtube com resoluções de codewars e
+            explicações de métodos javascript.
+          </p>
+          <p>
+            Principais tecnologias que tenho conhecimento: <br />
+            Javascript | React | TypeScript | Next | Node | Express | PHP | C++
+            | GIT | GitHub <br />
           </p>
           <a href="#contact" className="btn btn-primary letsTalk">
             Vamos conversar

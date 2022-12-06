@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebookF } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
+import { FaFacebookF, FaGithub, FaYoutube } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 import "./style.css";
@@ -31,6 +32,18 @@ function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
+        <a
+          href="https://www.linkedin.com/in/pablo-araujo-441402167/"
+          target="__blank"
+        >
+          <BsLinkedin />
+        </a>
+        <a href="https://github.com/pablorzenha" target="__blank">
+          <FaGithub />
+        </a>
+        <a href="https://www.youtube.com/@pabloaraujo1893" target="__blank">
+          <FaYoutube />
+        </a>
         <a href="https://www.facebook.com/pablo.araujo.33">
           <FaFacebookF />
         </a>
